@@ -16,7 +16,7 @@ Content-Type: text/html
 
 %s''' %(status,time_(),time_(),len(data),data)
 
-ServerPort=12000
+ServerPort=80
 ServerSocket=socket(AF_INET,SOCK_STREAM)
 ServerSocket.bind(('',ServerPort))
 ServerSocket.listen(1)

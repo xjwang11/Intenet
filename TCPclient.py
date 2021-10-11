@@ -7,7 +7,7 @@ User-agent: Mozilla/5.0
 Accept-language: fr
 ''' %(url,host)
 host='192.168.0.102'
-port=12000
+port=80
 clientsocket=socket(AF_INET,SOCK_STREAM)
 clientsocket.connect((host,port))
 clientsocket.send(get_url('/Users/aizanghuaren/Desktop/python/variable_test.py',host,port).encode())
